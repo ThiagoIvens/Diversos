@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="pt-br">
+<head>
+    {% include "includes/head.html" %}
+</head>
+    <!-- Page Preloder -->
+    {% include "includes/preloader.html" %}
+
+    <!-- Header Section -->
+    {% include "includes/header.html" %}
+
+    {% block body %} {% endblock %}
+
+    <!-- Footer Section -->
+    {% include "includes/footer.html" %}
+
+    <!-- Js Plugins -->
+    {% include "includes/js-plugins.html" %}
+</html>
