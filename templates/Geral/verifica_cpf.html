@@ -1,7 +1,10 @@
-{% loadstatic %}
 
-{% extends '../index.html' %}
+{% extends 'index.html' %}
 
 {% block body %}
-    <h1>TESTE</h1>
+    <form action="#" method="POST">
+        <label for="cpf">CPF:</label><br>
+        <input id="cpf" type="text" maxlength="11"><br>
+        <button type="submit" class="btn btn-verifica-cpf">Verificar</button>
+    </form>
 {% endblock %}
