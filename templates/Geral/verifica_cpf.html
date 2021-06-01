@@ -1,10 +1,14 @@
-
 {% extends 'index.html' %}
 
+{% block title %} Validar CPF {% endblock %}
+
 {% block body %}
+<div class="container-fluid">
+    <h3>Valide o seu cpf!</h3>
     <form action="#" method="POST">
         <label for="cpf">CPF:</label><br>
         <input id="cpf" type="text" maxlength="11"><br>
-        <button type="submit" class="btn btn-verifica-cpf">Verificar</button>
+        <button for="cpf" type="submit" class="btn btn-verifica-cpf">Verificar</button>
     </form>
+</div>
 {% endblock %}
