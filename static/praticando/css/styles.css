@@ -1,3 +1,44 @@
-h3{
-    color: blueviolet;
+.container-fluid {
+    padding: 0;
+
+}
+
+/* NavBar */
+.navbar {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav a.nav-link {
+    color: bisque;
+    letter-spacing: 1px;
+}
+
+.bg-navbar{
+    background-color: darkgreen;
+}
+
+/* Footer */
+footer {
+    background-color: darkgreen;
+    height: 200px;
+    border-top: 4px solid #000;
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+footer p {
+    color: bisque;
+    text-align: center;
+    top: 50%;
+    position: relative;
 }

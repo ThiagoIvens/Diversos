@@ -8,13 +8,16 @@
     <!-- Page Preloder -->
     {% include "includes/preloader.html" %}
 
-    <!-- Header Section -->
-    {% include "includes/header.html" %}
+    <div class="container-fluid">
+        <!-- Header Section -->
+        {% include "includes/header.html" %}
+        
+        <!-- Block Section -->
+        {% block body %} {% endblock %}
 
-    {% block body %} {% endblock %}
-
-    <!-- Footer Section -->
-    {% include "includes/footer.html" %}
+        <!-- Footer Section -->
+        {% include "includes/footer.html" %}
+    </div>
 
     <!-- Js Plugins -->
     {% include "includes/js-plugins.html" %}
