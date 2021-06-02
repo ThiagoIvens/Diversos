@@ -5,13 +5,13 @@
 {% block body %}
 <div class="d-flex justify-content-center">
     <div class='col-sm-2'>
-        <form action="#" method="POST">
+        <form action="#" method="POST"> {% csrf_token %}
             <div class="mb-3">
                 <label for="cpf" class="form-label">CPF:</label><br>
-                <input id="cpf" class="form-control" type="text" maxlength="11">
+                <input id="campo_cpf" class="form-control" type="text" maxlength="11">
             </div>
             <div class="mb-3">
-                <button class="btn btn-success" type="submit">Verificar</button>
+                <button class="btn btn-success" type="submit" onclick="TestaCPF()">Verificar</button>
             </div>
         </form>
     </div>
