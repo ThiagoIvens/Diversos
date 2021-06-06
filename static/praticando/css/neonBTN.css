@@ -1,5 +1,5 @@
 body{
-    background: gray;
+    background-image:white; 
 }
 
 /* NEON BTN */
@@ -7,7 +7,7 @@ body{
     position: relative;
     display: inline-block;
     padding: 15px 30px;
-    color: goldenrod;
+    color: black;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-decoration: none;
@@ -18,9 +18,9 @@ body{
 
 /* brilho no botao apos rodar a linha em volta */
 .neonBTN a:hover {
-    color: goldenrod;
-    background: gold;
-    box-shadow:  0 0 10px gold, 0 0 40px gold, 0 0 80px gold;
+    color: black;
+    background: turquoise;
+    box-shadow:  0 0 10px turquoise, 0 0 40px turquoise, 0 0 80px turquoise;
     transition-delay: 1s;
 }
 
@@ -35,7 +35,7 @@ body{
     left: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, gold);
+    background: linear-gradient(90deg, transparent, turquoise);
 }
 
 .neonBTN a:hover span:nth-child(1){
@@ -49,7 +49,7 @@ body{
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg, transparent, gold);
+    background: linear-gradient(180deg, transparent, turquoise);
 }
 
 .neonBTN a:hover span:nth-child(2){
@@ -64,7 +64,7 @@ body{
     right: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg, transparent, gold);
+    background: linear-gradient(270deg, transparent, turquoise);
 }
 
 .neonBTN a:hover span:nth-child(3){
@@ -79,7 +79,7 @@ body{
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg, transparent, gold);
+    background: linear-gradient(360deg, transparent, turquoise);
 }
 
 .neonBTN a:hover span:nth-child(4){
